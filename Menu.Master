@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Menu.master.cs" Inherits="Examen3__CesarSalas.Menu" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="CSS/Estilo.css" rel="stylesheet" />
+
+    <link href="CSS/GridviewDiseno.css" rel="stylesheet" />
+
+</head>
+
+
+
+
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+
+            <nav>
+	<a href="Encuesta.aspx">Encuesta</a>
+	<a href="Registros.aspx">Registro</a>
+	
+	
+	<div class="animation start-home"></div>
+</nav>
+
+
+
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
